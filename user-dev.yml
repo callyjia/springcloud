@@ -8,6 +8,10 @@ app:
 
 spring:
   datasource:
-    # Changed port to 3307
     url: jdbc:mysql://192.168.221.136:3307/springcloud?characterEncoding=UTF8&useSSL=false
+    username: guest  # Add your username
+    password: guest  # Add your password
     driver-class-name: com.mysql.jdbc.Driver
+  # Make sure application name matches what you expect
+  application:
+    name: user
