@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+# This is a sample property to test if the config loads successfully
+app:
+  name: MyShop User Service
+  env: Development
